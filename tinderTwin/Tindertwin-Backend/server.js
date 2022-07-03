@@ -7,7 +7,7 @@ const app = express();
 
 const PORT = process.env.PORT || 3001;
 const CONNECT_URL =
-  "mongodb+srv://VasuDevrani:mongoAtlasByVasu@cluster0.krlmc7x.mongodb.net/tinderdb?retryWrites=true&w=majority";
+  "mongodb+srv://<Username>:<Password>@cluster0.krlmc7x.mongodb.net/tinderdb?retryWrites=true&w=majority";
 
 mongoose
   .connect(CONNECT_URL, { useNewUrlParser: true,
